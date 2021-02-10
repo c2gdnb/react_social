@@ -1,0 +1,25 @@
+.nav {
+  grid-area: n;
+}
+
+.menuList {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.item {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.link {
+  color: #0095f6;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.item .link.active,
+.link:hover {
+  color: orange;
+}
