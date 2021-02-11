@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
       <div className="app-wrapper">
         <Header />
-        <Nav />
+        <Na />
         <div className="content">
           <Route path="/dialogs" component={Dialogs} />
           <Route path="/profile" component={Profile} />
