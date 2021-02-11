@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfileInfo from "../ProfileInfo/ProfileInfo";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import MyPosts from "./MyPosts/MyPosts";
 import "./Profile.css";
 
@@ -8,7 +8,7 @@ class Profile extends Component {
     return (
       <div>
         <ProfileInfo />
-        <MyPosts />
+        <MyPosts postData={this.props.postData} />
       </div>
     );
   }

@@ -6,7 +6,7 @@ class Post extends Component {
   render() {
     return (
       <div className="item">
-        <img src="https://www.w3schools.com/howto/img_avatar.png" />
+        <img src="https://www.w3schools.com/howto/img_avatar.png" alt=""/>
         <div className="postText">{this.props.message}</div>
         <span className="likes-wrapper">
           <LikeIcon />
